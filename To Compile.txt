@@ -1,0 +1,13 @@
+to compile xv6
+
+make clean && make qemu SCHEDFLAG=SJF
+
+policy should be RR, SJF or FCFS.
+
+to test syscall
+
+ syscall
+
+to test policies
+
+ env
